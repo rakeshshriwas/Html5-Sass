@@ -1,0 +1,34 @@
+
+
+/*               Traingle 
+===========================================*/
+@mixin tringale($width, $dir, $back){
+
+	@if $dir == up{
+
+		height: 0px;
+		width: 0px;
+		border-bottom: $width solid $back;
+		border-left: $width solid transparent;
+		border-right: $width solid transparent;
+	}@else if $dir == down{
+		height: 0px;
+		width:0px;
+		border-top: $width solid $back;
+		border-left: $width solid transparent;
+		border-right: $width solid transparent;
+	}@else if $dir == left{
+		height: 0px;
+		width:0px;
+		border-top: $width solid transparent;
+		border-left: $width solid $back;
+		border-right: $width solid transparent;
+	}@else if $dir == right{
+		height: 0px;
+		width:0px;
+		border-top: $width solid transparent;
+		border-left: $width solid transparent;
+		border-right: $width solid $back;
+	}
+
+}

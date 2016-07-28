@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;6CAC6C;ACH7C,OAAO;EDQL,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,kBAAkB;EACjC,WAAW,EAAE,sBAAwB;EACrC,YAAY,EAAE,sBAAwB",
+"sources": ["../sass/component/_mixin.scss","../sass/component/_shapes.scss"],
+"names": [],
+"file": "style.css"
+}
